@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Light rum</fullName>
+        <default>false</default>
+        <label>Light rum</label>
+    </customValue>
+    <customValue>
+        <fullName>Applejack</fullName>
+        <default>false</default>
+        <label>Applejack</label>
+    </customValue>
+    <customValue>
+        <fullName>Gin</fullName>
+        <default>false</default>
+        <label>Gin</label>
+    </customValue>
+    <customValue>
+        <fullName>Dark rum</fullName>
+        <default>false</default>
+        <label>Dark rum</label>
+    </customValue>
+    <customValue>
+        <fullName>Sweet Vermouth</fullName>
+        <default>false</default>
+        <label>Sweet Vermouth</label>
+    </customValue>
+    <customValue>
+        <fullName>Strawberry schnapps</fullName>
+        <default>false</default>
+        <label>Strawberry schnapps</label>
+    </customValue>
+    <customValue>
+        <fullName>Scotch</fullName>
+        <default>false</default>
+        <label>Scotch</label>
+    </customValue>
+    <customValue>
+        <fullName>Apricot brandy</fullName>
+        <default>false</default>
+        <label>Apricot brandy</label>
+    </customValue>
+    <customValue>
+        <fullName>Triple sec</fullName>
+        <default>false</default>
+        <label>Triple sec</label>
+    </customValue>
+    <customValue>
+        <fullName>Southern Comfort</fullName>
+        <default>false</default>
+        <label>Southern Comfort</label>
+    </customValue>
+    <customValue>
+        <fullName>Orange bitters</fullName>
+        <default>false</default>
+        <label>Orange bitters</label>
+    </customValue>
+    <customValue>
+        <fullName>Brandy</fullName>
+        <default>false</default>
+        <label>Brandy</label>
+    </customValue>
+    <customValue>
+        <fullName>Lemon vodka</fullName>
+        <default>false</default>
+        <label>Lemon vodka</label>
+    </customValue>
+    <customValue>
+        <fullName>Blended whiskey</fullName>
+        <default>false</default>
+        <label>Blended whiskey</label>
+    </customValue>
+    <customValue>
+        <fullName>Dry Vermouth</fullName>
+        <default>false</default>
+        <label>Dry Vermouth</label>
+    </customValue>
+    <customValue>
+        <fullName>Amaretto</fullName>
+        <default>false</default>
+        <label>Amaretto</label>
+    </customValue>
+    <customValue>
+        <fullName>Tea</fullName>
+        <default>false</default>
+        <label>Tea</label>
+    </customValue>
+    <customValue>
+        <fullName>Champagne</fullName>
+        <default>false</default>
+        <label>Champagne</label>
+    </customValue>
+    <customValue>
+        <fullName>Coffee liqueur</fullName>
+        <default>false</default>
+        <label>Coffee liqueur</label>
+    </customValue>
+    <customValue>
+        <fullName>Bourbon</fullName>
+        <default>false</default>
+        <label>Bourbon</label>
+    </customValue>
+    <customValue>
+        <fullName>Tequila</fullName>
+        <default>false</default>
+        <label>Tequila</label>
+    </customValue>
+    <customValue>
+        <fullName>Vodka</fullName>
+        <default>false</default>
+        <label>Vodka</label>
+    </customValue>
+    <customValue>
+        <fullName>Añejo rum</fullName>
+        <default>false</default>
+        <label>Añejo rum</label>
+    </customValue>
+    <customValue>
+        <fullName>Bitters</fullName>
+        <default>false</default>
+        <label>Bitters</label>
+    </customValue>
+    <customValue>
+        <fullName>Sugar</fullName>
+        <default>false</default>
+        <label>Sugar</label>
+    </customValue>
+    <customValue>
+        <fullName>Kahlua</fullName>
+        <default>false</default>
+        <label>Kahlua</label>
+    </customValue>
+    <customValue>
+        <fullName>demerara Sugar</fullName>
+        <default>false</default>
+        <label>demerara Sugar</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubonnet Rouge</fullName>
+        <default>false</default>
+        <label>Dubonnet Rouge</label>
+    </customValue>
+    <customValue>
+        <fullName>Watermelon</fullName>
+        <default>false</default>
+        <label>Watermelon</label>
+    </customValue>
+    <customValue>
+        <fullName>Lime juice</fullName>
+        <default>false</default>
+        <label>Lime juice</label>
+    </customValue>
+    <customValue>
+        <fullName>Irish whiskey</fullName>
+        <default>false</default>
+        <label>Irish whiskey</label>
+    </customValue>
+    <customValue>
+        <fullName>Apple brandy</fullName>
+        <default>false</default>
+        <label>Apple brandy</label>
+    </customValue>
+    <customValue>
+        <fullName>Carbonated water</fullName>
+        <default>false</default>
+        <label>Carbonated water</label>
+    </customValue>
+    <customValue>
+        <fullName>Cherry brandy</fullName>
+        <default>false</default>
+        <label>Cherry brandy</label>
+    </customValue>
+    <customValue>
+        <fullName>Creme de Cacao</fullName>
+        <default>false</default>
+        <label>Creme de Cacao</label>
+    </customValue>
+    <customValue>
+        <fullName>Grenadine</fullName>
+        <default>false</default>
+        <label>Grenadine</label>
+    </customValue>
+    <customValue>
+        <fullName>Port</fullName>
+        <default>false</default>
+        <label>Port</label>
+    </customValue>
+    <customValue>
+        <fullName>Coffee brandy</fullName>
+        <default>false</default>
+        <label>Coffee brandy</label>
+    </customValue>
+    <customValue>
+        <fullName>Red wine</fullName>
+        <default>false</default>
+        <label>Red wine</label>
+    </customValue>
+    <customValue>
+        <fullName>Rum</fullName>
+        <default>false</default>
+        <label>Rum</label>
+    </customValue>
+    <customValue>
+        <fullName>Grapefruit juice</fullName>
+        <default>false</default>
+        <label>Grapefruit juice</label>
+    </customValue>
+    <customValue>
+        <fullName>Ricard</fullName>
+        <default>false</default>
+        <label>Ricard</label>
+    </customValue>
+    <customValue>
+        <fullName>Sherry</fullName>
+        <default>false</default>
+        <label>Sherry</label>
+    </customValue>
+    <customValue>
+        <fullName>Cognac</fullName>
+        <default>false</default>
+        <label>Cognac</label>
+    </customValue>
+    <customValue>
+        <fullName>Sloe gin</fullName>
+        <default>false</default>
+        <label>Sloe gin</label>
+    </customValue>
+    <customValue>
+        <fullName>Apple juice</fullName>
+        <default>false</default>
+        <label>Apple juice</label>
+    </customValue>
+    <customValue>
+        <fullName>Pineapple juice</fullName>
+        <default>false</default>
+        <label>Pineapple juice</label>
+    </customValue>
+    <customValue>
+        <fullName>Lemon juice</fullName>
+        <default>false</default>
+        <label>Lemon juice</label>
+    </customValue>
+    <customValue>
+        <fullName>Sugar syrup</fullName>
+        <default>false</default>
+        <label>Sugar syrup</label>
+    </customValue>
+    <customValue>
+        <fullName>Milk</fullName>
+        <default>false</default>
+        <label>Milk</label>
+    </customValue>
+    <customValue>
+        <fullName>Strawberries</fullName>
+        <default>false</default>
+        <label>Strawberries</label>
+    </customValue>
+    <customValue>
+        <fullName>Chocolate syrup</fullName>
+        <default>false</default>
+        <label>Chocolate syrup</label>
+    </customValue>
+    <customValue>
+        <fullName>Yoghurt</fullName>
+        <default>false</default>
+        <label>Yoghurt</label>
+    </customValue>
+    <customValue>
+        <fullName>Mango</fullName>
+        <default>false</default>
+        <label>Mango</label>
+    </customValue>
+    <customValue>
+        <fullName>Ginger</fullName>
+        <default>false</default>
+        <label>Ginger</label>
+    </customValue>
+    <customValue>
+        <fullName>Lime</fullName>
+        <default>false</default>
+        <label>Lime</label>
+    </customValue>
+    <customValue>
+        <fullName>Cantaloupe</fullName>
+        <default>false</default>
+        <label>Cantaloupe</label>
+    </customValue>
+    <customValue>
+        <fullName>Berries</fullName>
+        <default>false</default>
+        <label>Berries</label>
+    </customValue>
+    <customValue>
+        <fullName>Grapes</fullName>
+        <default>false</default>
+        <label>Grapes</label>
+    </customValue>
+    <customValue>
+        <fullName>Kiwi</fullName>
+        <default>false</default>
+        <label>Kiwi</label>
+    </customValue>
+    <customValue>
+        <fullName>Tomato juice</fullName>
+        <default>false</default>
+        <label>Tomato juice</label>
+    </customValue>
+    <customValue>
+        <fullName>Cocoa powder</fullName>
+        <default>false</default>
+        <label>Cocoa powder</label>
+    </customValue>
+    <customValue>
+        <fullName>Chocolate</fullName>
+        <default>false</default>
+        <label>Chocolate</label>
+    </customValue>
+    <customValue>
+        <fullName>Heavy cream</fullName>
+        <default>false</default>
+        <label>Heavy cream</label>
+    </customValue>
+    <customValue>
+        <fullName>Galliano</fullName>
+        <default>false</default>
+        <label>Galliano</label>
+    </customValue>
+    <customValue>
+        <fullName>Peach Vodka</fullName>
+        <default>false</default>
+        <label>Peach Vodka</label>
+    </customValue>
+    <customValue>
+        <fullName>Ouzo</fullName>
+        <default>false</default>
+        <label>Ouzo</label>
+    </customValue>
+    <customValue>
+        <fullName>Coffee</fullName>
+        <default>false</default>
+        <label>Coffee</label>
+    </customValue>
+    <customValue>
+        <fullName>Spiced rum</fullName>
+        <default>false</default>
+        <label>Spiced rum</label>
+    </customValue>
+    <customValue>
+        <fullName>Water</fullName>
+        <default>false</default>
+        <label>Water</label>
+    </customValue>
+    <customValue>
+        <fullName>Espresso</fullName>
+        <default>false</default>
+        <label>Espresso</label>
+    </customValue>
+    <customValue>
+        <fullName>Angelica root</fullName>
+        <default>false</default>
+        <label>Angelica root</label>
+    </customValue>
+    <customValue>
+        <fullName>Orange</fullName>
+        <default>false</default>
+        <label>Orange</label>
+    </customValue>
+    <customValue>
+        <fullName>Cranberries</fullName>
+        <default>false</default>
+        <label>Cranberries</label>
+    </customValue>
+    <customValue>
+        <fullName>Johnnie Walker</fullName>
+        <default>false</default>
+        <label>Johnnie Walker</label>
+    </customValue>
+    <customValue>
+        <fullName>Apple cider</fullName>
+        <default>false</default>
+        <label>Apple cider</label>
+    </customValue>
+    <customValue>
+        <fullName>Everclear</fullName>
+        <default>false</default>
+        <label>Everclear</label>
+    </customValue>
+    <customValue>
+        <fullName>Cranberry juice</fullName>
+        <default>false</default>
+        <label>Cranberry juice</label>
+    </customValue>
+    <customValue>
+        <fullName>Egg yolk</fullName>
+        <default>false</default>
+        <label>Egg yolk</label>
+    </customValue>
+    <customValue>
+        <fullName>Egg</fullName>
+        <default>false</default>
+        <label>Egg</label>
+    </customValue>
+    <customValue>
+        <fullName>Grape juice</fullName>
+        <default>false</default>
+        <label>Grape juice</label>
+    </customValue>
+    <customValue>
+        <fullName>Peach nectar</fullName>
+        <default>false</default>
+        <label>Peach nectar</label>
+    </customValue>
+    <customValue>
+        <fullName>Lemon</fullName>
+        <default>false</default>
+        <label>Lemon</label>
+    </customValue>
+    <customValue>
+        <fullName>Firewater</fullName>
+        <default>false</default>
+        <label>Firewater</label>
+    </customValue>
+    <customValue>
+        <fullName>Lemonade</fullName>
+        <default>false</default>
+        <label>Lemonade</label>
+    </customValue>
+    <customValue>
+        <fullName>Lager</fullName>
+        <default>false</default>
+        <label>Lager</label>
+    </customValue>
+    <customValue>
+        <fullName>Whiskey</fullName>
+        <default>false</default>
+        <label>Whiskey</label>
+    </customValue>
+    <customValue>
+        <fullName>Absolut Citron</fullName>
+        <default>false</default>
+        <label>Absolut Citron</label>
+    </customValue>
+    <customValue>
+        <fullName>Pisco</fullName>
+        <default>false</default>
+        <label>Pisco</label>
+    </customValue>
+    <customValue>
+        <fullName>Irish cream</fullName>
+        <default>false</default>
+        <label>Irish cream</label>
+    </customValue>
+    <customValue>
+        <fullName>Ale</fullName>
+        <default>false</default>
+        <label>Ale</label>
+    </customValue>
+    <customValue>
+        <fullName>Chocolate liqueur</fullName>
+        <default>false</default>
+        <label>Chocolate liqueur</label>
+    </customValue>
+    <customValue>
+        <fullName>Midori melon liqueur</fullName>
+        <default>false</default>
+        <label>Midori melon liqueur</label>
+    </customValue>
+    <customValue>
+        <fullName>Sambuca</fullName>
+        <default>false</default>
+        <label>Sambuca</label>
+    </customValue>
+    <customValue>
+        <fullName>Cider</fullName>
+        <default>false</default>
+        <label>Cider</label>
+    </customValue>
+    <customValue>
+        <fullName>Sprite</fullName>
+        <default>false</default>
+        <label>Sprite</label>
+    </customValue>
+    <customValue>
+        <fullName>7-Up</fullName>
+        <default>false</default>
+        <label>7-Up</label>
+    </customValue>
+    <customValue>
+        <fullName>Blackberry brandy</fullName>
+        <default>false</default>
+        <label>Blackberry brandy</label>
+    </customValue>
+    <customValue>
+        <fullName>Peppermint schnapps</fullName>
+        <default>false</default>
+        <label>Peppermint schnapps</label>
+    </customValue>
+    <customValue>
+        <fullName>Creme de Cassis</fullName>
+        <default>false</default>
+        <label>Creme de Cassis</label>
+    </customValue>
+    <masterLabel>Product Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
