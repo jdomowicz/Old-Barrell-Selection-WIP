@@ -1,0 +1,29 @@
+<template>
+  <lightning-layout horizontal-align="left" multiple-rows>
+    <lightning-layout-item
+      size="12"
+      small-device-size="6"
+      large-device-size="12"
+    >
+      <c-cocktail-recipes-filter
+        oncocktails={handleCocktailsData}
+      ></c-cocktail-recipes-filter>
+    </lightning-layout-item>
+
+    <lightning-layout-item size="8" small-device-size="6" large-device-size="8" class="slds-m-top_small">
+      <lightning-card>
+        <lightning-tabset>
+          <lightning-tab label="Internal Cocktails">
+            <c-cocktail-tiles ontileclicked={tileClickedHanlder} cocktaildata={cocktailsData}></c-cocktail-tiles>
+          </lightning-tab>
+          <lightning-tab label="External Db" title="2nd tab extended title">
+            Two Content !
+          </lightning-tab>
+        </lightning-tabset>
+      </lightning-card>
+    </lightning-layout-item>
+
+    <lightning-layout-item
+
+  </lightning-layout>
+</template>

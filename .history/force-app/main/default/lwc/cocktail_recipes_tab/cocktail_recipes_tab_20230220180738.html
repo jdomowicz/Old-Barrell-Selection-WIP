@@ -1,0 +1,29 @@
+<template>
+
+    <lightning-layout>
+        <lightning-layout-item>
+
+                <c-cocktail-recipes-filter oncocktails={handleCocktailsData}></c-cocktail-recipes-filter>
+
+        </lightning-layout-item>
+
+        <lightning-layout-item>
+
+        </lightning-layout-item>
+
+
+    </lightning-layout>
+
+
+
+    <lightning-card>
+    <lightning-tabset>
+        <lightning-tab label="Internal Cocktails">
+            <c-cocktail-tiles cocktaildata={cocktailsData}></c-cocktail-tiles>
+        </lightning-tab>
+        <lightning-tab label="External Db" title="2nd tab extended title">
+            Two Content !
+        </lightning-tab>
+    </lightning-tabset>
+</lightning-card>
+</template>

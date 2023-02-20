@@ -1,0 +1,14 @@
+<template>
+
+<lightning-layout horizontal-align="center" multiple-rows="true">
+
+            <template for:each={cocktaildata} for:item="cocktail">
+                <li key={cocktail.Id}>
+               <c-cocktail-tile cocktail={cocktail}></c-cocktail-tile>
+                </li>
+            </template>
+        </ul>
+
+</lightning-layout>
+
+</template>

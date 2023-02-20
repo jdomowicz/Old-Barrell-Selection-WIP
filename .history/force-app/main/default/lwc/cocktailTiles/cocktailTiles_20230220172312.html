@@ -1,0 +1,22 @@
+<template>
+
+    <lightning-card title="Cocktail Tiles">
+
+
+          <ul class="slds-m-around_medium">
+            <template for:each={recepiedata} for:item="c">
+                
+                <c-Contact-Tile></c-Contact-Tile>
+                <li key={c.Name}>
+                Name:    {c.Name}
+                </li>
+            </template>
+        </ul>
+      <!--  <c-cocktail-tiles></c-cocktail-tiles> -->
+    
+        <c-Contact-Tile></c-Contact-Tile>
+
+    </lightning-card>
+
+
+</template>

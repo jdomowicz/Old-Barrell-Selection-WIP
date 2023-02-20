@@ -1,0 +1,19 @@
+<template>
+
+  <lightning-card>
+  <lightning-layout horizontal-align="center" multiple-rows="true">
+    <template for:each={cocktaildata} for:item="cocktail">
+      <lightning-layout-item
+        padding="around-small"
+        size="6"
+        small-device-size="6"
+        medium-device-size="4"
+        large-device-size="3"
+        key={cocktail.Id}
+      >
+        <c-cocktail-tile cocktail={cocktail} ontileClick></c-cocktail-tile>
+      </lightning-layout-item>
+    </template>
+  </lightning-layout>
+  </lightning-card>
+</template>
