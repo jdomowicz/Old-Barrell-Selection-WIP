@@ -1,0 +1,14 @@
+<template>
+    <lightning-card title ="Filter Cocktail Recipes" icon-name="utility:search">
+         <lightning-input type="text" label="Search Recipes/Ingredients"></lightning-input>
+         <lightning-combobox
+            name="Searchby"
+            label="Search by"
+            value={SearchType}
+            placeholder="Select Search Type"
+            options={SearchOptions}
+            onchange={handleSearchTypeChange} ></lightning-combobox>
+
+
+    </lightning-card>
+</template>
