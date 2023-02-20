@@ -89,6 +89,16 @@
                 <identifier>RecordNo_Ingredients_cField</identifier>
             </fieldInstance>
         </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Drink_External_Id__c</fieldItem>
+                <identifier>RecordDrink_External_Id_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
         <name>Facet-8a020ac9-1554-4d0e-bd46-f4d291129ce7</name>
         <type>Facet</type>
     </flexiPageRegions>
@@ -97,10 +107,50 @@
             <fieldInstance>
                 <fieldInstanceProperties>
                     <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Ingredient1__c</fieldItem>
+                <identifier>RecordIngredient1_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Ingredient2__c</fieldItem>
+                <identifier>RecordIngredient2_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Ingredient2__c</fieldItem>
+                <identifier>RecordIngredient2_cField2</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
                     <value>readonly</value>
                 </fieldInstanceProperties>
                 <fieldItem>Record.Photo__c</fieldItem>
                 <identifier>RecordPhoto_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.PictureURL__c</fieldItem>
+                <identifier>RecordPictureURL_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-35bedd3c-4bfe-443e-a969-a72694631fa8</name>

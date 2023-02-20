@@ -11,11 +11,27 @@
         <visible>true</visible>
     </applicationVisibilities>
     <classAccesses>
+        <apexClass>CocktailHelper</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>CocktailRestService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>CocktailRestServiceHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CocktailTriggerHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>CocktailsJSON2APEX</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CoctailsByIngredientsJSON2APEX</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -30,6 +46,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.total_order_value__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Cocktail_Ingredients__c.Drink_Ing_External_Id__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -54,7 +75,57 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Coctail__c.Ingredient1__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Coctail__c.Ingredient2__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Coctail__c.Ingredient3__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Coctail__c.Ingredient4__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Coctail__c.Ingredient5__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Coctail__c.Instructions__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Coctail__c.Measure1__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Coctail__c.Measure2__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Coctail__c.Measure3__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Coctail__c.Measure4__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Coctail__c.Measure5__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -70,6 +141,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Coctail__c.PictureURL__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Ingredient__c.Family__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -109,13 +185,58 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Product2.Product_Type__c</field>
+        <field>Product2.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Product2.DisplayUrl</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Product2.ExternalDataSourceId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Product2.ExternalId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Product2.Family</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Product2.Ingredient_Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Product2.ProductCode</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Product2.QuantityUnitOfMeasure</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Product2.StockKeepingUnit</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>Product2.Sub_Type__c</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Product2.TransferRecordMode</field>
+        <readable>false</readable>
     </fieldPermissions>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
@@ -129,6 +250,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Coctail__c-Cocktail Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Ingredient__c-Ingredient Type Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Order-Order Layout</layout>
@@ -161,6 +285,24 @@
         <object>Coctail__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Ingredient__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Product2</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
     <recordTypeVisibilities>
         <default>true</default>
         <personAccountDefault>true</personAccountDefault>
@@ -173,6 +315,14 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Coctail__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Ingredient__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Product2</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>
