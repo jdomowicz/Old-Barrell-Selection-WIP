@@ -6,8 +6,7 @@
       large-device-size="12"
     >
       <c-cocktail-recipes-filter
-        oncocktailsearchterm={handleSearchTerm}
-        oncocktailsearchtype={handlesearchType}
+        oncocktailsearchterm={handleCocktailsData}
       ></c-cocktail-recipes-filter>
     </lightning-layout-item>
 
@@ -22,7 +21,7 @@
           <lightning-tab label="Internal Cocktails">
             <c-cocktail-tiles
               ontileclicked={tileClickedHanlder}
-              cocktaildata={cocktails}
+              cocktaildata={cocktailsData}
             ></c-cocktail-tiles>
           </lightning-tab>
           <lightning-tab label="External Db" title="2nd tab extended title">

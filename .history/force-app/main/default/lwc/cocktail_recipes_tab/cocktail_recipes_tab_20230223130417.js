@@ -3,15 +3,15 @@ import getCocktails from '@salesforce/apex/CocktailLWCHandler.getExisitngCocktai
 
 export default class Cocktail_recipes_tab extends LightningElement {
 
-    cocktails;
+    cocktailsData;
     recordId;
-    searchTerm = "";
+    searchTerm = '';
     searchType = "Name";
-    error;
 
     handleSearchTerm(event){
 
         this.searchTerm = event.detail;
+
     }
       handlesearchType(event){
 
@@ -25,12 +25,13 @@ export default class Cocktail_recipes_tab extends LightningElement {
     }
 
 
-    @wire (getCocktails, { SearchTerm: '$searchTerm', SearchType: '$searchType' })
+    @wire (getCocktails, { SearchTerm: '$SearchTerm', SearchType: '$SearchType' })
      wiredCocktails({ error, data }) {
         if (data) {
             this.cocktails = data;
             this.error = undefined;
-            console.log(this.cocktails);
+            this.handleCocktailData();
+            console.log(data);
         } else if (error) {
             this.error = error;
             this.cocktails = undefined;

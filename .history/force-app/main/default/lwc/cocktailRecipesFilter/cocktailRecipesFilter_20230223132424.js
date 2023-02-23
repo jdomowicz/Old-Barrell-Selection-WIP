@@ -27,7 +27,7 @@ export default class Cocktail_recipes_filter extends LightningElement {
         console.log(event);
      const selectedEvent = new CustomEvent('cocktailsearchterm',{detail: this.SearchTerm});
       this.dispatchEvent(selectedEvent);
-      //console.log(selectedEvent);
+      console.log(selectedEvent);
 
     }
 

@@ -11,10 +11,12 @@ export default class Cocktail_recipes_tab extends LightningElement {
 
     handleSearchTerm(event){
 
+
         this.searchTerm = event.detail;
     }
       handlesearchType(event){
 
+       
         this.searchType = event.detail;
 
     }
