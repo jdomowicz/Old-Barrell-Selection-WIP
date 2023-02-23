@@ -42,6 +42,7 @@ export default class CocktailDetails extends LightningElement {
   get name() {
     return getFieldValue(this.recDetail, NAMEF);
   }
+
   get ing1() {
     return getFieldValue(this.recDetail, Ingredient1);
   }
@@ -51,12 +52,10 @@ export default class CocktailDetails extends LightningElement {
   get ing3() {
     return getFieldValue(this.recDetail, Ingredient3);
   }
-
   get ing4() {
     return getFieldValue(this.recDetail, Ingredient4);
   }
   get ing5() {
     return getFieldValue(this.recDetail, Ingredient5);
   }
-
 }

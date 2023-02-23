@@ -58,5 +58,5 @@ export default class CocktailDetails extends LightningElement {
   get ing5() {
     return getFieldValue(this.recDetail, Ingredient5);
   }
-
+  
 }

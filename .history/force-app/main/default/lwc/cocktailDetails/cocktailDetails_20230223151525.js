@@ -51,12 +51,12 @@ export default class CocktailDetails extends LightningElement {
   get ing3() {
     return getFieldValue(this.recDetail, Ingredient3);
   }
-
+  /*
   get ing4() {
     return getFieldValue(this.recDetail, Ingredient4);
   }
   get ing5() {
     return getFieldValue(this.recDetail, Ingredient5);
   }
-
+  */
 }
