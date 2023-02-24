@@ -111,8 +111,5 @@ export default class CocktailDetails extends LightningElement {
   handleEditRecord(){
 
   }
-   handleViewRecord(){
-
-  }
 
 }
