@@ -53,8 +53,7 @@ export default class CocktailDetails extends NavigationMixin(LightningElement) {
   }
 
   get name() {
-    //return this.uperCase(getFieldValue(this.recDetail, NAMEF));
-    return getFieldValue(this.recDetail, NAMEF);
+    return this.uperCase(getFieldValue(this.recDetail, NAMEF));
   }
 
   get ing1() {
@@ -105,18 +104,18 @@ export default class CocktailDetails extends NavigationMixin(LightningElement) {
     return ing;
   };
 
-  /*
   uperCase = (arg1) => {
     const ing = arg1.toUpperCase();
     return ing;
   };
-  */
 
   handleEditRecord(){
     this.navigateToRecordViewPage('edit');
   }
    handleViewRecord(){
     this.navigateToRecordViewPage('view');
+  }
+
   }
 
    navigateToRecordViewPage(vietype) {

@@ -1,6 +1,5 @@
 import { LightningElement, api, wire } from "lwc";
 import { getRecord, getFieldValue } from "lightning/uiRecordApi";
-import { NavigationMixin } from 'lightning/navigation';
 
 import NAMEF from "@salesforce/schema/Coctail__c.Name";
 import Ingredient1 from "@salesforce/schema/Coctail__c.Ingredient1__c";
@@ -53,8 +52,7 @@ export default class CocktailDetails extends NavigationMixin(LightningElement) {
   }
 
   get name() {
-    //return this.uperCase(getFieldValue(this.recDetail, NAMEF));
-    return getFieldValue(this.recDetail, NAMEF);
+    return this.uperCase(getFieldValue(this.recDetail, NAMEF));
   }
 
   get ing1() {
@@ -105,30 +103,16 @@ export default class CocktailDetails extends NavigationMixin(LightningElement) {
     return ing;
   };
 
-  /*
   uperCase = (arg1) => {
     const ing = arg1.toUpperCase();
     return ing;
   };
-  */
 
   handleEditRecord(){
-    this.navigateToRecordViewPage('edit');
+
   }
    handleViewRecord(){
-    this.navigateToRecordViewPage('view');
-  }
 
-   navigateToRecordViewPage(vietype) {
-        // View a custom object record.
-        this[NavigationMixin.Navigate]({
-            type: 'standard__recordPage',
-            attributes: {
-                recordId: this.recordpassed,
-                objectApiName: 'Coctail__c',
-                actionName: vietype
-            }
-        });
-    }
+  }
 
 }

@@ -53,8 +53,7 @@ export default class CocktailDetails extends NavigationMixin(LightningElement) {
   }
 
   get name() {
-    //return this.uperCase(getFieldValue(this.recDetail, NAMEF));
-    return getFieldValue(this.recDetail, NAMEF);
+    return this.uperCase(getFieldValue(this.recDetail, NAMEF));
   }
 
   get ing1() {
@@ -105,28 +104,37 @@ export default class CocktailDetails extends NavigationMixin(LightningElement) {
     return ing;
   };
 
-  /*
   uperCase = (arg1) => {
     const ing = arg1.toUpperCase();
     return ing;
   };
-  */
 
   handleEditRecord(){
-    this.navigateToRecordViewPage('edit');
+    this.openEditRecord();
   }
    handleViewRecord(){
-    this.navigateToRecordViewPage('view');
+
   }
 
-   navigateToRecordViewPage(vietype) {
+  openEditRecord(){
+  this[NavigationMixin.Navigate]({
+    type: 'standard__recordPage',
+    attributes: {
+        recordId: this.recordpassed, // pass the record id here.
+        actionName: 'edit',
+        objectApiName: 'Coctail__c'
+    },
+});
+  }
+
+   navigateToRecordViewPage() {
         // View a custom object record.
         this[NavigationMixin.Navigate]({
             type: 'standard__recordPage',
             attributes: {
-                recordId: this.recordpassed,
-                objectApiName: 'Coctail__c',
-                actionName: vietype
+                recordId: 'a03B0000002tEurIAE',
+                objectApiName: 'namespace__ObjectName', // objectApiName is optional
+                actionName: 'view'
             }
         });
     }
