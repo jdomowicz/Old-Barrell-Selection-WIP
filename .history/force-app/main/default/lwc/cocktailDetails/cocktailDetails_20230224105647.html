@@ -1,0 +1,45 @@
+<template>
+  <lightning-card>
+
+    <div >
+      <lightning-layout>
+
+        <lightning-layout-item flexibility="auto" padding="around-small">
+
+          <lightning-icon icon-name="custom:custom56" size="large"></lightning-icon>
+
+        </lightning-layout-item>
+
+        <lightning-layout-item flexibility="auto" padding="around-small">
+
+          <div class="slds-text-heading_medium"><b>{name}</b></div>
+
+        </lightning-layout-item>
+      </lightning-layout>
+    </div>
+
+    <div
+      class="slds-box slds-p-around_none slds-m-top_x-small slds-m-bottom_medium slds-m-horizontal_none slds-m-righ_x-small">
+      <lightning-layout>
+        <lightning-layout-item class='slds-size_1-of-3' padding="around-small">
+          <div class="custom-box slds-box slds-p-around_medium slds-text-align_center">
+            <ul>
+              <li class="lds-item">{ing1}</li>
+              <li class="lds-item">{ing2}</li>
+              <li class="lds-item">{ing3}</li>
+              <li class="lds-item">{ing4}</li>
+              <li class="lds-item">{ing5}</li>
+            </ul>
+          </div>
+        </lightning-layout-item>
+
+        <lightning-layout-item class='slds-size_2-of-3 slds-text-align_center' padding="around-small">
+          <div>{description} </div>
+        </lightning-layout-item>
+
+      </lightning-layout>
+
+
+    </div>
+  </lightning-card>
+</template>
