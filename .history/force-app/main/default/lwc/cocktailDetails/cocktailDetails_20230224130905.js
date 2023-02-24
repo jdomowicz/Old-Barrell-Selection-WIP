@@ -52,8 +52,10 @@ export default class CocktailDetails extends NavigationMixin(LightningElement) {
   }
 
   get name() {
-    return `${getFieldValue(this.recDetail, NAMEF)}`.toUpperCase();
 
+    if()
+    let nm =  getFieldValue(this.recDetail, NAMEF).toUpperCase();
+    return nm;
   }
 
   get ing1() {
@@ -84,9 +86,9 @@ export default class CocktailDetails extends NavigationMixin(LightningElement) {
   }
   get ing5() {
     return this.concatIngr(
-      getFieldValue(this.recDetail, measure5),
-      getFieldValue(this.recDetail, Ingredient5)
-    );
+        getFieldValue(this.recDetail, measure5),
+        getFieldValue(this.recDetail, Ingredient5)
+      );
   }
 
   get description() {
@@ -111,23 +113,23 @@ export default class CocktailDetails extends NavigationMixin(LightningElement) {
   };
   */
 
-  handleEditRecord() {
+  handleEditRecord(){
     this.navigateToRecordViewPage('edit');
   }
-  handleViewRecord() {
+   handleViewRecord(){
     this.navigateToRecordViewPage('view');
   }
 
-  navigateToRecordViewPage(vietype) {
-    // View a custom object record.
-    this[NavigationMixin.Navigate]({
-      type: 'standard__recordPage',
-      attributes: {
-        recordId: this.recordpassed,
-        objectApiName: 'Coctail__c',
-        actionName: vietype
-      }
-    });
-  }
+   navigateToRecordViewPage(vietype) {
+        // View a custom object record.
+        this[NavigationMixin.Navigate]({
+            type: 'standard__recordPage',
+            attributes: {
+                recordId: this.recordpassed,
+                objectApiName: 'Coctail__c',
+                actionName: vietype
+            }
+        });
+    }
 
 }

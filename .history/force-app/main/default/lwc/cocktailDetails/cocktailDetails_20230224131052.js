@@ -52,7 +52,7 @@ export default class CocktailDetails extends NavigationMixin(LightningElement) {
   }
 
   get name() {
-    return `${getFieldValue(this.recDetail, NAMEF)}`.toUpperCase();
+    return ``getFieldValue(this.recDetail, NAMEF).toUpperCase();
 
   }
 
