@@ -53,6 +53,8 @@ export default class CocktailDetails extends NavigationMixin(LightningElement) {
   }
 
 
+
+
   get name() {
     console.log('getter called');
     this.recId = getFieldValue(this.recDetail, NAMEF);

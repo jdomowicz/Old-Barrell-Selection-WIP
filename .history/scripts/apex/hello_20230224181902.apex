@@ -5,17 +5,5 @@
 // You can also execute the entire file by running the command:
 //     SFDX: Execute Anonymous Apex with Editor Contents
 Item i1 = new Item();
-Item i2 = new Item(1,1);
-system.debug(i2);
-
-Double unitP = i2.getQuantity();
-system.debug(unitP);
 
 
-Integer i = 3;
-Double d = 1.5;
-
-
-double r = d*i;
-
-system.debug(r);

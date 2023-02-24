@@ -36,7 +36,10 @@ export default class CocktailDetails extends NavigationMixin(LightningElement) {
   @api recordpassed;
   recDetail;
   error;
-
+  recId;
+  recIdR;
+  recIdRendered;
+  recIdRenderedU;
 
   @wire(getRecord, {
     recordId: "$recordpassed",
@@ -50,6 +53,23 @@ export default class CocktailDetails extends NavigationMixin(LightningElement) {
       console.log(error);
       this.error = error;
     }
+  }
+
+  connectedCallback() {
+    console.log('connected callback');
+
+   // console.log(this.recId);
+   // this.recIdR = getFieldValue(this.recDetail, NAMEF).toUpperCase();
+   // console.log(this.recIdR);
+
+  }
+  renderedCallback() {
+    console.log('render colback');
+    console.log('value of this.recId is ' + this.recId);
+   // this.recIdRendered = getFieldValue(this.recDetail, NAMEF);
+   // console.log(this.recId);
+   // this.recIdRenderedU = getFieldValue(this.recDetail, NAMEF).toUpperCase();
+   // console.log(this.recIdR);
   }
 
 

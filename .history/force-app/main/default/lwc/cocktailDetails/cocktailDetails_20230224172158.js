@@ -36,6 +36,7 @@ export default class CocktailDetails extends NavigationMixin(LightningElement) {
   @api recordpassed;
   recDetail;
   error;
+  recId;
 
 
   @wire(getRecord, {
@@ -51,6 +52,8 @@ export default class CocktailDetails extends NavigationMixin(LightningElement) {
       this.error = error;
     }
   }
+
+
 
 
   get name() {
