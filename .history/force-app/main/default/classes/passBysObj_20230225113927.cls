@@ -19,4 +19,3 @@ public with sharing class passBysObj {
       a.Name = 'Acc updated in class updated'
     }
   }
-}
