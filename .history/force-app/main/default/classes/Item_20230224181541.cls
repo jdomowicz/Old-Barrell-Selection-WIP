@@ -1,0 +1,16 @@
+public with sharing class Item {
+
+    private final Double UnitPrice;
+    private final Integer Quantiity;
+
+    Item (Double unitPrice,Integer quantity) {
+
+        this.UnitPrice = unitPrice;
+        this.Quantiity = quantiity;
+
+    }
+
+    public Double getUnitPrice(){
+        return UnitPrice;
+    }
+}

@@ -1,0 +1,36 @@
+<template>
+  <lightning-card>
+    <div class="slds-text-heading_small slds-m-around_xx-small">
+      <b> {name} </b>
+    </div>
+
+    <div
+      class="slds-box slds-p-around_none slds-m-top_x-small slds-m-bottom_medium slds-m-horizontal_none"
+    >
+      <lightning-layout>
+        <lightning-layout-item flexibility="auto" padding="around-small">
+
+          <ul class="slds-has-dividers_top-space">
+  <li class="lds-item">
+    {ing1}
+  </li>
+   <li class="lds-item">
+    {ing1}
+  </li>
+</ul>
+        </lightning-layout-item>
+        <lightning-layout-item flexibility="auto" padding="around-small">
+          <div
+            class="slds-p-around_medium"
+          >
+            <div>{m1}</div>
+            <div>{m2}</div>
+            <div>{m3}</div>
+            <div>{m4}</div>
+            <div>{m5}</div>
+          </div>
+        </lightning-layout-item>
+      </lightning-layout>
+    </div>
+  </lightning-card>
+</template>
