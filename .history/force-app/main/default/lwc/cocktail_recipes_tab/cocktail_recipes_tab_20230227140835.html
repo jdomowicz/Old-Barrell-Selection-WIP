@@ -18,15 +18,15 @@
       class="slds-m-top_small"
     >
       <lightning-card>
-        <lightning-tabset active-tab-value="tab-1">
-          <lightning-tab label="Internal Cocktails" onactive={handleActiveTab}>
+        <lightning-tabset >
+          <lightning-tab label="Internal Cocktails">
             <c-cocktail-tiles
               ontileclicked={tileClickedHanlder}
               cocktaildata={cocktails}
             ></c-cocktail-tiles>
           </lightning-tab>
-          <lightning-tab label="External Db" title="Cocktails From External DB" onactive={handleActiveTab}>
-            <c-cocktail-tiles-from-api></c-cocktail-tiles-from-api>
+          <lightning-tab label="External Db" title="2nd tab extended title">
+            Two Content !
           </lightning-tab>
         </lightning-tabset>
       </lightning-card>

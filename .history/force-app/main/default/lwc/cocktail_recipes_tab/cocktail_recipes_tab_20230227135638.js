@@ -8,7 +8,6 @@ export default class Cocktail_recipes_tab extends LightningElement {
   searchTerm = "";
   searchType = "Name";
   error;
-  tabSelected;
 
   handleSearchTerm(event) {
     this.searchTerm = event.detail;
@@ -19,16 +18,13 @@ export default class Cocktail_recipes_tab extends LightningElement {
 
   tileClickedHanlder(event) {
 
-    this.updateShowDetails(event.detail);
-    this.recordId = event.detail;
-  }
-
-  handleActiveTab(event) {
-    this.tabSelected = event.target.value;
-
-    if(this.tabSelected != 'tab-1'){
+    if (this.recordId === event.detail) {
       this.showDetails = false;
+    } else {
+      this.showDetails = true;
     }
+
+    this.recordId = event.detail;
   }
 
   @wire(getCocktails, { SearchTerm: "$searchTerm", SearchType: "$searchType" })
@@ -41,14 +37,4 @@ export default class Cocktail_recipes_tab extends LightningElement {
       this.cocktails = undefined;
     }
   }
-
-  updateShowDetails(eventRecordId) {
-      if (eventRecordId == this.recordId && this.showDetails === true) {
-        this.showDetails = false;
-      } else if (this.showDetails === false) {
-        this.showDetails = true;
-      } else if (this.showDetails === true) {
-        this.showDetails = true;
-      }
-    }
 }

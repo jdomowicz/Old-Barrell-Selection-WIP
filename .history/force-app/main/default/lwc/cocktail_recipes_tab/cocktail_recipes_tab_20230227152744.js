@@ -18,7 +18,7 @@ export default class Cocktail_recipes_tab extends LightningElement {
   }
 
   tileClickedHanlder(event) {
-
+    console.log('tile clicked');
     this.updateShowDetails(event.detail);
     this.recordId = event.detail;
   }
@@ -26,7 +26,7 @@ export default class Cocktail_recipes_tab extends LightningElement {
   handleActiveTab(event) {
     this.tabSelected = event.target.value;
 
-    if(this.tabSelected != 'tab-1'){
+    if(this.tabSelected != 'tab-2'){
       this.showDetails = false;
     }
   }

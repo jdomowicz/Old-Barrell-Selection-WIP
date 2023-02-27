@@ -18,17 +18,14 @@ export default class Cocktail_recipes_tab extends LightningElement {
   }
 
   tileClickedHanlder(event) {
-
     this.updateShowDetails(event.detail);
+
     this.recordId = event.detail;
   }
 
   handleActiveTab(event) {
     this.tabSelected = event.target.value;
-
-    if(this.tabSelected != 'tab-1'){
-      this.showDetails = false;
-    }
+    console.log(this.tabSelected);
   }
 
   @wire(getCocktails, { SearchTerm: "$searchTerm", SearchType: "$searchType" })
@@ -50,5 +47,8 @@ export default class Cocktail_recipes_tab extends LightningElement {
       } else if (this.showDetails === true) {
         this.showDetails = true;
       }
+    } else {
+      this.showDetails = false;
     }
+  }
 }

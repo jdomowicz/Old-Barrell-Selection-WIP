@@ -20,15 +20,15 @@ export default class Cocktail_recipes_tab extends LightningElement {
   tileClickedHanlder(event) {
 
     this.updateShowDetails(event.detail);
+
     this.recordId = event.detail;
   }
 
-  handleActiveTab(event) {
-    this.tabSelected = event.target.value;
+  handleActiveTab(event){
 
-    if(this.tabSelected != 'tab-1'){
-      this.showDetails = false;
-    }
+
+    this.tabSelected = event.target.value;
+    console.log(this.tabSelected);
   }
 
   @wire(getCocktails, { SearchTerm: "$searchTerm", SearchType: "$searchType" })
@@ -42,13 +42,24 @@ export default class Cocktail_recipes_tab extends LightningElement {
     }
   }
 
-  updateShowDetails(eventRecordId) {
-      if (eventRecordId == this.recordId && this.showDetails === true) {
-        this.showDetails = false;
-      } else if (this.showDetails === false) {
-        this.showDetails = true;
-      } else if (this.showDetails === true) {
-        this.showDetails = true;
-      }
+  updateShowDetails(eventRecordId){
+
+    if(this.tabSelected ==)
+
+    if(eventRecordId == this.recordId && this.showDetails === true){
+
+      this.showDetails = false;
+
     }
+    else if(this.showDetails === false){
+
+      this.showDetails = true;
+
+    }
+    else if(this.showDetails === true){
+
+      this.showDetails = true;
+
+    }
+  }
 }

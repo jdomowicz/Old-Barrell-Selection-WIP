@@ -18,17 +18,14 @@ export default class Cocktail_recipes_tab extends LightningElement {
   }
 
   tileClickedHanlder(event) {
-
     this.updateShowDetails(event.detail);
+
     this.recordId = event.detail;
   }
 
   handleActiveTab(event) {
     this.tabSelected = event.target.value;
-
-    if(this.tabSelected != 'tab-1'){
-      this.showDetails = false;
-    }
+    if(this.tabSelected == 'tab-2')
   }
 
   @wire(getCocktails, { SearchTerm: "$searchTerm", SearchType: "$searchType" })

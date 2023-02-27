@@ -18,16 +18,17 @@ export default class Cocktail_recipes_tab extends LightningElement {
   }
 
   tileClickedHanlder(event) {
-
+    console.log();
     this.updateShowDetails(event.detail);
     this.recordId = event.detail;
   }
 
   handleActiveTab(event) {
     this.tabSelected = event.target.value;
-
-    if(this.tabSelected != 'tab-1'){
-      this.showDetails = false;
+    console.log(this.tabSelected);
+    console.log(this.tabSelected == 'tab-2');
+    if(this.tabSelected == 'tab-2'){
+      this.tabSelected = false;
     }
   }
 
