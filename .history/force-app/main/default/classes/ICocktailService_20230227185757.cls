@@ -1,0 +1,9 @@
+global interface MyInterface {
+    
+
+
+    getCocktails()
+
+    
+
+}

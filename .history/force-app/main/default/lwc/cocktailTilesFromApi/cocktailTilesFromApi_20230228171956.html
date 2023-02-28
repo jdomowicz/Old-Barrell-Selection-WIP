@@ -1,0 +1,35 @@
+<template>
+    <lightning-card title="lightning tile from API">
+
+       <div class="slds-m-around_medium">
+            <template if:true={cocktaildata}>
+                <template for:each={cocktaildata} for:item="c">
+                    <lightning-layout-item
+        padding="around-small"
+        size="6"
+        small-device-size="6"
+        medium-device-size="4"
+        large-device-size="3"
+        key={c.Name}
+      >
+                    <c-cocktail-tile-from-api cocktail={c}></c-cocktail-tile-from-api>
+                </template>
+            </template>
+        </div>
+
+    </lightning-card>
+</template>
+
+
+ <template for:each={cocktaildata} for:item="cocktail">
+      <lightning-layout-item
+        padding="around-small"
+        size="6"
+        small-device-size="6"
+        medium-device-size="4"
+        large-device-size="3"
+        key={cocktail.Id}
+      >
+        <c-cocktail-tile cocktail={cocktail}></c-cocktail-tile>
+      </lightning-layout-item>
+    </template>
