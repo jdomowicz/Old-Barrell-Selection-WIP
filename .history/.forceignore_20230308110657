@@ -3,8 +3,7 @@
 #
 
 package.xml
-**/appMenus/**
-**/appSwitcher/**
+forceignore
 
 # LWC configuration files
 **/jsconfig.json

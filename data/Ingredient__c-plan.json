@@ -1,0 +1,10 @@
+[
+    {
+        "sobject": "Ingredient__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "Ingredient__cs.json"
+        ]
+    }
+]
