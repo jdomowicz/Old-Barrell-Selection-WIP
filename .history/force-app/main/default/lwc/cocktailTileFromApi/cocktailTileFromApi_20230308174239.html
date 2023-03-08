@@ -1,0 +1,66 @@
+<template>
+
+  <div class="slds-box custom-box">
+
+  <lightning-card title={cocktailName}>
+
+      <div slot="actions">
+        <lightning-button
+          slot="actions"
+          variant="brand"
+          label="Upload to Salesforce"
+          title="createRecord"
+          onclick={handleCreateRecord}
+          class="slds-m-left_x-small"
+          disabled={cocktail.}
+        ></lightning-button>
+      </div>
+
+      <div class="slds-border_bottom"></div>
+
+      <lightning-layout>
+        <lightning-layout-item class="slds-size_1-of-7">
+          <div class="slds-p-right_medium slds-text-body_regular">
+            <div class="tile slds-box custom-box">
+              <img src={cocktail.PictureURL__c} />
+            </div>
+          </div>
+        </lightning-layout-item>
+
+        <lightning-layout-item
+          class="slds-size_1-of-5 slds-border_right slds-text-align_left"
+          padding="around-small"
+        >
+          <div class="slds-text-heading_small">
+            Ingredients
+          </div>
+
+          <div class="center slds-text-body_regular">
+            <ul>
+              <li class="lds-item">{cocktailIng}</li>
+              <li class="lds-item">{cocktailIng2}</li>
+              <li class="lds-item">{cocktailIng3}</li>
+              <li class="lds-item">{cocktailIng4}</li>
+              <li class="lds-item">{cocktailIng5}</li>
+            </ul>
+          </div>
+        </lightning-layout-item>
+
+        <lightning-layout-item
+          class="slds-size_2-of-3 slds-text-align_left"
+          padding="around-small"
+        >
+          <div class="slds-text-heading_small">
+            Descirption
+          </div>
+          <div
+            class="emphasized slds-m-around_small slds-text-body_regular slds-wrap"
+          >
+            {cocktail.Instructions__c}
+          </div>
+        </lightning-layout-item>
+      </lightning-layout>
+        </lightning-card>
+    </div>
+
+</template>
