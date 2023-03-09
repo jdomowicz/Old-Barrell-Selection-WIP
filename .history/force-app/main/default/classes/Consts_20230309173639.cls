@@ -6,10 +6,9 @@ public with sharing class Consts {
         }
     }
 
-     public static final AccountConsts ACCOUNT {
+     public static final ContactConsts ACCOUNT {
         get {
-          //  return AccountConsts.INSTANCE;
-            return new AccountConsts();
+            return ContactConsts.INSTANCE;
         }
     }
 }

@@ -85,8 +85,6 @@ public with sharing class CocktailRestServiceHandler {
       CoctailList.addAll(CocktailRestService.getCocktailDetailsbyId(drinkId));
     }
 
-    // where we can add isExisitingFlag? maybe in fetch record?
-
     list<Coctail__c> CoctailListWithIsExistingFlag = addIsExistingFlag(CoctailList);
 
     return CoctailListWithIsExistingFlag;

@@ -20,7 +20,7 @@ public with sharing class CocktailRestService {
       // this can be handled by another method with factory pattern
 
       for (CocktailsJSON2APEX.Drink d : cocktailList.drinks) {
-        Coctail__c c = new Coctail__c (
+        Coctail__c c = new Coctail__c(
           Name = d.strDrink,
           Drink_External_Id__c = d.idDrink,
           PictureURL__c = d.strDrinkThumb,

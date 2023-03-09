@@ -50,7 +50,7 @@ public with sharing class CocktailRestServiceHandler {
       createdRecordList
     );
 
-    //prepare child records in separate method
+    //create child records in separate method
 
     for (Coctail__c c : createdRecordMap.values()) {
       for (Integer i = 1; i <= 5; i++) {
@@ -76,16 +76,11 @@ public with sharing class CocktailRestServiceHandler {
   public list<Coctail__c> returnCocktailsbyIng(String searchString) {
     list<Coctail__c> CoctailList = new List<Coctail__c>();
 
-
-    //create one method that makes both of those things in one method??
-
     list<String> fetchDrinkIds = CocktailRestService.getCocktailsByIngr(searchString);
 
     for (String drinkId : fetchDrinkIds) {
       CoctailList.addAll(CocktailRestService.getCocktailDetailsbyId(drinkId));
     }
-
-    // where we can add isExisitingFlag? maybe in fetch record?
 
     list<Coctail__c> CoctailListWithIsExistingFlag = addIsExistingFlag(CoctailList);
 

@@ -77,15 +77,12 @@ public with sharing class CocktailRestServiceHandler {
     list<Coctail__c> CoctailList = new List<Coctail__c>();
 
 
-    //create one method that makes both of those things in one method??
-
+    //create one method that 
     list<String> fetchDrinkIds = CocktailRestService.getCocktailsByIngr(searchString);
 
     for (String drinkId : fetchDrinkIds) {
       CoctailList.addAll(CocktailRestService.getCocktailDetailsbyId(drinkId));
     }
-
-    // where we can add isExisitingFlag? maybe in fetch record?
 
     list<Coctail__c> CoctailListWithIsExistingFlag = addIsExistingFlag(CoctailList);
 

@@ -2,8 +2,6 @@ public with sharing class CocktailRestService {
   // Fetch drink Details from external API
 
   public static list<Coctail__c> getCocktailDetailsbyId(String CoctailId) {
-
-    // this can be handled by another method
     Http http = new Http();
     HttpRequest request = new HttpRequest();
     String requestBody = '/api/json/v1/1/lookup.php?i=' + CoctailId;
@@ -18,9 +16,8 @@ public with sharing class CocktailRestService {
       );
 
       // this can be handled by another method with factory pattern
-
       for (CocktailsJSON2APEX.Drink d : cocktailList.drinks) {
-        Coctail__c c = new Coctail__c (
+        Coctail__c c = new Coctail__c(
           Name = d.strDrink,
           Drink_External_Id__c = d.idDrink,
           PictureURL__c = d.strDrinkThumb,
@@ -46,8 +43,6 @@ public with sharing class CocktailRestService {
   // Fetch list of drinks with specific ingredenits from external API
 
   public static list<String> getCocktailsByIngr(String ingredient) {
-
-     // this can be handled by another method
     Http http = new Http();
     HttpRequest request = new HttpRequest();
     String requestBody = '/api/json/v1/1/filter.php?i=' + ingredient;
@@ -70,8 +65,6 @@ public with sharing class CocktailRestService {
   }
 
   public static list<Coctail__c> getCocktailsByName(String cocktailName) {
-
-     // this can be handled by another method
     Http http = new Http();
     HttpRequest request = new HttpRequest();
     String requestBody = '/api/json/v1/1/search.php?s=' + cocktailName;
@@ -86,7 +79,6 @@ public with sharing class CocktailRestService {
         response.getBody()
       );
 
-      // this can be handled by another method with factory pattern
       for (CocktailsJSON2APEX.Drink d : cocktailList.drinks) {
         Coctail__c c = new Coctail__c(
           Name = d.strDrink,
