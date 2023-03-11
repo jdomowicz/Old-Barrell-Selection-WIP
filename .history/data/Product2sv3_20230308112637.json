@@ -1,0 +1,996 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref1"
+            },
+            "Name": "Carbonated water",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref2"
+            },
+            "Name": "Cherry brandy",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref3"
+            },
+            "Name": "Creme de Cacao",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref4"
+            },
+            "Name": "Grenadine",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Non-Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref5"
+            },
+            "Name": "Port",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref6"
+            },
+            "Name": "Coffee brandy",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref7"
+            },
+            "Name": "Red wine",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref8"
+            },
+            "Name": "Grapefruit juice",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Non-Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref9"
+            },
+            "Name": "Ricard",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref10"
+            },
+            "Name": "Cognac",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref11"
+            },
+            "Name": "Sloe gin",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref12"
+            },
+            "Name": "Apple juice",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Non-Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref13"
+            },
+            "Name": "Pineapple juice",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Non-Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref14"
+            },
+            "Name": "Lemon juice",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Non-Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref15"
+            },
+            "Name": "Sugar syrup",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Non-Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref16"
+            },
+            "Name": "Milk",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Non-Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref17"
+            },
+            "Name": "Strawberries",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Non-Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref18"
+            },
+            "Name": "Chocolate syrup",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref19"
+            },
+            "Name": "Yoghurt",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Non-Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref20"
+            },
+            "Name": "Mango",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref21"
+            },
+            "Name": "Ginger",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Non-Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref22"
+            },
+            "Name": "Lime",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Non-Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref23"
+            },
+            "Name": "Cantaloupe",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref24"
+            },
+            "Name": "Berries",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Non-Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref25"
+            },
+            "Name": "Grapes",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Non-Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref26"
+            },
+            "Name": "Kiwi",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Non-Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref27"
+            },
+            "Name": "Tomato juice",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Non-Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref28"
+            },
+            "Name": "Cocoa powder",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Non-Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref29"
+            },
+            "Name": "Chocolate",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Non-Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref30"
+            },
+            "Name": "Heavy cream",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Non-Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref31"
+            },
+            "Name": "Galliano",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref32"
+            },
+            "Name": "Peach Vodka",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref33"
+            },
+            "Name": "Ouzo",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref34"
+            },
+            "Name": "Coffee",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Non-Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref35"
+            },
+            "Name": "Spiced rum",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref36"
+            },
+            "Name": "Espresso",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Non-Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref37"
+            },
+            "Name": "Angelica root",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref38"
+            },
+            "Name": "Orange",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Non-Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref39"
+            },
+            "Name": "Cranberries",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Non-Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref40"
+            },
+            "Name": "Johnnie Walker",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref41"
+            },
+            "Name": "Apple cider",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref42"
+            },
+            "Name": "Everclear",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref43"
+            },
+            "Name": "Cranberry juice",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Non-Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref44"
+            },
+            "Name": "Egg yolk",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Non-Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref45"
+            },
+            "Name": "Grape juice",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Non-Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref46"
+            },
+            "Name": "Peach nectar",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Non-Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref47"
+            },
+            "Name": "Lemon",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Non-Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref48"
+            },
+            "Name": "Firewater",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref49"
+            },
+            "Name": "Lemonade",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Non-Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref50"
+            },
+            "Name": "Lager",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref51"
+            },
+            "Name": "Absolut Citron",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref52"
+            },
+            "Name": "Pisco",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref53"
+            },
+            "Name": "Irish cream",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref54"
+            },
+            "Name": "Ale",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref55"
+            },
+            "Name": "Chocolate liqueur",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref56"
+            },
+            "Name": "Midori melon liqueur",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref57"
+            },
+            "Name": "Sambuca",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref58"
+            },
+            "Name": "Sprite",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref59"
+            },
+            "Name": "7-Up",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Non-Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref60"
+            },
+            "Name": "Blackberry brandy",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref61"
+            },
+            "Name": "Peppermint schnapps",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref62"
+            },
+            "Name": "Creme de Cassis",
+            "ProductCode": null,
+            "Description": "Automated process creation",
+            "Family": "Alcoholic",
+            "ExternalId": null,
+            "DisplayUrl": null,
+            "QuantityUnitOfMeasure": null,
+            "IsArchived": false,
+            "StockKeepingUnit": null,
+            "Sub_Type__c": null
+        }
+    ]
+}

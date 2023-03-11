@@ -1,0 +1,27 @@
+<template>
+  <div>{cocktail.Name}</div>
+
+  <div
+      class="slds-box slds-p-around_none slds-m-top_x-small slds-m-bottom_medium slds-m-horizontal_none slds-m-righ_x-small">
+      <lightning-layout>
+        <lightning-layout-item class='slds-size_1-of-3' padding="around-small">
+          <div class="custom-box slds-box slds-p-left_medium slds-p-right_medium slds-text-align_center slds-text-body_regular">
+            <ul>
+              <li class="lds-item">{cocktail.Ingredient1__c}</li>
+              <li class="lds-item">{cocktail.Ingredient1__c}</li>
+              <li class="lds-item">{cocktail.Ingredient1__c}</li>
+              <li class="lds-item">{ing4}</li>
+              <li class="lds-item">{ing5}</li>
+            </ul>
+          </div>
+        </lightning-layout-item>
+
+        <lightning-layout-item class='slds-size_2-of-3 slds-text-align_left' padding="around-small">
+          <div class="slds-m-top_medium slds-text-align_left slds-text-body_regular">{description} </div>
+        </lightning-layout-item>
+
+      </lightning-layout>
+
+    </div>
+
+</template>

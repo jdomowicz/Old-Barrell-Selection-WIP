@@ -1,0 +1,11 @@
+[
+    {
+        "sobject": "Product2",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "Product2sv1.json"
+            
+        ]
+    }
+]

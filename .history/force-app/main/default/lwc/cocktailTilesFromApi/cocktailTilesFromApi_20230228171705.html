@@ -1,0 +1,14 @@
+<template>
+    <lightning-card title="lightning tile from API">
+
+       <div class="slds-m-around_medium">
+            <template if:true={cocktaildata}>
+                <template for:each={cocktaildata} for:item="c">
+                    <p key={c.Name}>{c.Name}</p>
+                    <c-cocktail-tile-from-api cocktail={c}></c-cocktail-tile-from-api>
+                </template>
+            </template>
+        </div>
+
+    </lightning-card>
+</template>

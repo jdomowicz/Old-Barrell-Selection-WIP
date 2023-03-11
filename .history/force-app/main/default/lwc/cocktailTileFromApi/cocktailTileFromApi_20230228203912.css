@@ -1,0 +1,16 @@
+.tile {
+    width: 128px;
+    height: 128px;
+    padding: 1px;
+    /* display: inline-block; */
+    cursor: pointer;
+}
+
+.emphasized {
+    font-style: italic;
+}
+
+.center{
+
+    
+}

@@ -1,0 +1,13 @@
+public with sharing class CocktailServiceAPI implements ICocktailService {
+
+    public List<Coctail__c> getCocktailsbyIngredient(String ingredient){
+
+
+
+        return new list<Cocktail__c>
+
+    }
+
+
+     public List<Coctail__c> getCocktailsbyName(String cocktailName){}
+}
