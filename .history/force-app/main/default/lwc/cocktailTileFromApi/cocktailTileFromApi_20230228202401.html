@@ -1,0 +1,51 @@
+<template>
+  <div class="slds-box custom-box slds-m-top_x-small slds-m-bottom_medium">
+    <div
+      class="slds-p-left_x-small slds-text-heading_medium slds-m-bottom_x-small"
+    >
+      <b>{cocktail.Name}</b>
+    </div>
+    <lightning-layout>
+
+      <lightning-layout-item class="slds-size_1-of-7" padding="around-small">
+        <div
+          class=" slds-p-right_medium slds-text-body_regular"
+        >
+          <div class="tile slds-box custom-box">
+            <img src={cocktail.PictureURL__c} />
+          </div>
+        </div>
+      </lightning-layout-item>
+
+
+      <lightning-layout-item class="slds-size_1-of-5 slds-align_absolute-center slds-border_right" padding="around-small">
+
+        <H2 class="slds-p-right_medium">Ingredients</div>
+        <div
+          class="slds-p-right_medium slds-text-body_regular slds-align_absolute-center"
+        >
+          <ul>
+            <li class="lds-item">{cocktailIng}</li>
+            <li class="lds-item">{cocktailIng2}</li>
+            <li class="lds-item">{cocktailIng3}</li>
+            <li class="lds-item">{cocktailIng4}</li>
+            <li class="lds-item">{cocktailIng5}</li>
+          </ul>
+        </div>
+      </lightning-layout-item>
+
+      <lightning-layout-item
+        class="slds-size_2-of-3 slds-text-align_left"
+        padding="around-small"
+      >
+      <div>Descirption</div>
+        <div
+          class="emphasized slds-m-top_medium slds-text-align_left slds-text-body_regular slds-wrap"
+        >
+        {cocktail.Instructions__c}
+        </div>
+      </lightning-layout-item>
+
+    </lightning-layout>
+  </div>
+</template>
