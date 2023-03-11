@@ -1,7 +1,7 @@
 // Consts.cls
-public with sharing class Consts {
+public with sharing class ConstsV2 {
 
-    // this is a property not a function and its called ad property  ConstsV2.CONTACT
+
     public static final ContactConsts CONTACT {
 
         get {
@@ -16,11 +16,11 @@ public with sharing class Consts {
         }
     }
 
-    //this is a function and its called as function ConstsV2.cclass();
-    public static ContactConsts cclass() {
+    public ContactConsts cclass {
 
-         ContactConsts  c = ContactConsts.INSTANCE;
-         return c;
+           return new ContactConsts.INSTANCE;
+
 
     }
+
 }

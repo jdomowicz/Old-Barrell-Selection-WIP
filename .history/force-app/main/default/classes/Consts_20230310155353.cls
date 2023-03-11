@@ -22,5 +22,6 @@ public with sharing class Consts {
          ContactConsts  c = ContactConsts.INSTANCE;
          return c;
 
+
     }
 }

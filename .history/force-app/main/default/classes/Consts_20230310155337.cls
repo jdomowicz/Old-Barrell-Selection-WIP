@@ -1,5 +1,6 @@
 // Consts.cls
 public with sharing class Consts {
+   
 
     // this is a property not a function and its called ad property  ConstsV2.CONTACT
     public static final ContactConsts CONTACT {
@@ -22,5 +23,5 @@ public with sharing class Consts {
          ContactConsts  c = ContactConsts.INSTANCE;
          return c;
 
+
     }
-}
